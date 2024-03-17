@@ -4,7 +4,6 @@ import 'package:teamwork/creat%20cv/pages/creat_cv_page.dart';
 
 import 'package:teamwork/auth/pages/login_page.dart';
 
-
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -15,11 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       routes: {
-
-        'creat_cv': (context) => CreateCvPage(),
-
         'login': (context) => const LoginPage()
-
       },
       home: Scaffold(
         appBar: AppBar(
