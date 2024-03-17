@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:teamwork/auth/pages/login_page.dart';
+import 'package:teamwork/creat%20cv/pages/creat_cv_page.dart';
 
 
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       routes: {
-        'login': (context) => const LoginPage()
+        'login': (context) => const LoginPage(),
+        'creat_cv': (context) => CreateCvPage(),
       },
       home: Scaffold(
         appBar: AppBar(
